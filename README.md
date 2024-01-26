@@ -1,1 +1,1 @@
-##Dice Thrown Game using JavaScript
+**Dice Thrown Game using JavaScript**
