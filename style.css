@@ -1,0 +1,33 @@
+body{
+    background-color: #BBBFBF;
+    /* background-color: white; */
+}
+
+.hidden{
+    display: none;
+}
+
+.current{
+    background-color: midnightblue;
+    cursor: pointer;
+}
+
+.btn--roll, .btn--hold{
+    background-color: midnightblue;
+    color: white;
+    cursor: pointer;
+}
+
+.btn--hold:hover{
+    color: white;
+}
+
+.btn--roll:hover{
+    color: white;
+}
+
+.btn--new{
+    font-size: 18px;
+    font-weight: 600;
+    padding-bottom: 44px 
+}

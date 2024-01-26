@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Roll Dice Game</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+    <div class="container-fluid d-flex align-items-center justify-content-center" style="height: 100vh;">
+        <div class="row p-5 text-center"  style="background-color: white; width: 700px; box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23)">
+            <div class="col-12 col-md-4 mt-4 player--0 player--active">
+                <h2 class="mt-5 mb-4">PLAYER 1</h2>
+                <h1 class="mb-5" id="score_0">23</h1>
+                <div class="current mt-5">
+                    <h4 class="text-light">Current</h4>
+                    <h4 class="text-light" id="current_0">0</h4>
+                </div>
+            </div>
+            <div class="col-12 col-md-4">
+                <p class="mb-5 btn btn--new">🔄 NEW GAME</p>
+                <img src="images/dice-6.png" alt="dice image" class="img-fluid border border-2 border-dark rounded-3 mt-4 mb-5 dice" style="width: 100px;">
+                <p class="mt-4 btn btn--roll" id="current--1">🎲 ROLL-DICE</p>
+                <p class="mt-4 btn btn--hold" id="score--1">📥 HOLD</p>
+            </div>
+            <div class="col-12 col-md-4 mt-4 player--1">
+                <h2 class="mt-5 mb-4" >PLAYER 2</h2>
+                <h1 class="mb-5" id="score_1">33</h1>
+                <div class="current border mt-5">
+                    <h4 class="text-light">Current</h4>
+                    <h4 class="text-light" id="current_1">0</h4>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+<script src="script.js"></script>
